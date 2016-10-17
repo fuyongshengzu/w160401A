@@ -22,5 +22,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     欢迎你  guthub <br>
+	用户名：<input type="text" name="username"><br>
+	密码:<input type="text" name="password"><br>
+	  <input type="submit" value="登录">
   </body>
 </html>
